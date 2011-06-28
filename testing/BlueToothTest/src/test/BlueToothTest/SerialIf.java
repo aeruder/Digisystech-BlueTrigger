@@ -1,12 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!-- 
-/*
- *  Program : BlueToothTest
+/*  Program : BlueToothTest
  *  About :   Android application proof of concept for triggering
  *            a camera remotely
- *  File :    colors.xml
- *  Purpose : Calls out colors used by the program
+ *  File :    SerialIf.java
+ *  Purpose : Implements the functionality of the serial interface
  *   
  *  Copyright (C) 2011  Geoff Kerr, Digital Systems Technologies
  *  
@@ -25,8 +21,32 @@
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
--->  
 
-<resources>
-   <color name = "background">#3500FFFF</color>
-</resources>
+/*package test.BlueToothTest;
+
+public class SerialIf
+{
+  public ~SerialIf()
+  {
+     delete Serial::Inst;
+  }
+
+  public static SerialIf * getInstance()
+  {
+     if (!created)
+     {
+        Inst = new SerialIf();
+        created = true;
+     }
+     return Inst;
+  }
+  
+  private static SerialIf * Inst;
+  private boolean created;
+  private SerialIf()
+  {
+     //
+  }
+
+
+}*/
