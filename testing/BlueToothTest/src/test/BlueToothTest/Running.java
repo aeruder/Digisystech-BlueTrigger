@@ -40,7 +40,6 @@ public class Running extends Activity implements OnClickListener{
       // cancel button
       View cancelButton = findViewById(R.id.cancel_button);
       cancelButton.setOnClickListener(this);
-      
    }
    
    public void onClick(View v) 
