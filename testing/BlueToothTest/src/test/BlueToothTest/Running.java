@@ -1,5 +1,4 @@
 package test.BlueToothTest;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -7,7 +6,7 @@ import android.app.Activity;
 import android.content.Intent;
 
 
-public class About extends Activity implements OnClickListener{
+public class Running extends Activity implements OnClickListener{
    
    @Override protected void onCreate(Bundle savedInstanceState)
    {      
@@ -16,7 +15,7 @@ public class About extends Activity implements OnClickListener{
       // setup the click listener for the buttons in the main view
       
       // trigger button
-      View webButton = findViewById(R.id.website_button);
+      View webButton = findViewById(R.id.cancel_button);
       webButton.setOnClickListener(this);
       
    }
@@ -25,9 +24,9 @@ public class About extends Activity implements OnClickListener{
    {
       switch (v.getId())
       {
-      case R.id.website_button:
-         Intent link = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://digisystech.com"));
-         startActivity(link);
+      case R.id.cancel_button:
+         // TODO, put code here to send cancel to blue tooth
+         finish();
          break;
       default:
          break;
