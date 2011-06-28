@@ -44,6 +44,8 @@ public class Menu extends Activity implements OnClickListener
       case R.id.configuration_button:
          break;
       case R.id.trigger_button:
+         Intent running = new Intent(this,Running.class);
+         startActivity(running);
          break;
       case R.id.exit_button:
          finish();
