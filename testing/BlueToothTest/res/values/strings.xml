@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_text">BlueToothTest</string>
+    <string name="connect_title_text">Bluetooth not Connected</string>
+    <string name="connect_button_label">Connect</string>
+    <string name="ready_title_text">Ready to Run</string>
+    <string name="running_title_text">Running</string>
+    <string name="about_title_text">About Bluetooth Trigger</string>
+    <string name="about_body_text">\
+	    This application was written by
+	    Geoffrey Kerr as a test application
+	    for proving that the using bluetooth
+	    to trigger a camera can work.</string>
+    <string name="about_button_exit">Return</string>
+    <string name="trigger_button_label">Trigger</string>
+    <string name="configuration_button_label">Settings</string>
+    <string name="about_button_label">About</string>
+    <string name="exit_button_label">Exit</string>
+    <string name="no_connect_body_text">\
+       Cannot establish a proper connection with the
+       target triggering system.  Please try again.</string>
+    <string name="no_connect_title_text">ATTENTION!</string>
+    <string name="web_link_title">please visit my website</string>
+
+</resources>
